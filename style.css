@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: muli, sans-serif;
+}
+
+.brand {
+  position: absolute;
+  width: 102.7px;
+  height: 100px;
+  left: 48px;
+  top: 30px;
+}
+
+h1 {
+  position: absolute;
+  width: 646px;
+  height: 48px;
+  left: 150px;
+  top: 250px;
+}
+
+h3 {
+  position: absolute;
+  width: 320px;
+  height: 29px;
+  left: 150px;
+  top: 330px;
+  padding: 0;
+}
+
+.teks {
+  position: absolute;
+  width: 582px;
+  height: 174px;
+  left: 150px;
+  top: 385px;
+}
+
+.invitation {
+  position: absolute;
+  width: 443px;
+  height: 24px;
+  left: 150px;
+  top: 475px;
+}
+
+.destination {
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase;
+}
+
+.menuju {
+  position: relative;
+  font-size: 24px;
+  width: 291px;
+  height: 61px;
+  left: 150px;
+  top: 545px;
+  color: #fff;
+  background: #6d8582;
+  border-radius: 15px;
+  border: none;
+  transition: ease-out 0.3s;
+  outline: 0;
+  z-index: 1;
+}
+
+.menuju:hover {
+  color: #ecac30;
+  cursor: pointer;
+}
+
+.menuju::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #2596be;
+}
+
+.menuju:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.image {
+  height: 250px;
+  position: absolute;
+  /* width: 300px;
+  height: 300px; */
+  left: 900px;
+  top: 200px;
+  margin: 0;
+}
+
+.email {
+  position: absolute;
+  width: 216px;
+  height: 24px;
+  left: 1184px;
+  top: 700px;
+}
+
+/* .footer {
+  width: 99%;
+  height: 50px;
+  text-align: center;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+} */
